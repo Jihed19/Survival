@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  body {
+    touch-action: none;
+    font-family: 'Rajdhani', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  h1, h2, h3, .font-heading {
+    font-family: 'Chakra Petch', sans-serif;
+  }
+}
+
+/* Custom styling for joystick & HUD elements */
+.hud-glow {
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.25), inset 0 0 15px rgba(56, 189, 248, 0.15);
+}
+
+.hud-glow-amber {
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.25), inset 0 0 15px rgba(245, 158, 11, 0.15);
+}
+
+.hud-glow-emerald {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.25), inset 0 0 15px rgba(16, 185, 129, 0.15);
+}

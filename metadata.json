@@ -1,0 +1,6 @@
+{
+  "name": "SurvX: Supervivencia Mundo Abierto 3D",
+  "description": "Juego de supervivencia y acción 3D con Three.js: personaje con cinemática procedural, mundo abierto con refugios y contenedores, recolección interactiva, controles PC y móviles y HUD futurista.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
